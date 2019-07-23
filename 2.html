@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta"> <!--Fuentes de Google(Hay dos) "|" separa-->
+    <link rel="stylesheet" href="css/Invie.css">
+    <title>Precios</title>
+  </head>
+  <body>
+    <header id="Header" class="Header background"> <!--Header -->
+    <div class="Contenedor" style="position: relative;">
+      <figure class="Logo"> <!--Logo -->
+        <a href="Invie.htm"></a>
+        <img src="images/invie.png" width="150" height="56" alt="Logo de la pagina">
+         <a style="text-decoration: none; color: white" href="tel:+543704827023">byMartín</a>
+      </figure>
+      <nav class="Menu"> <!--Menu -->
+        <ul>
+          <li>
+            <a href="index.html" target="">Home</a>
+          </li>
+          <li>
+            <a href="Invie.htm#Guitarras">Guitarras</a>
+          </li>
+          <li>
+            <a href="2.html" target="_blank">Precios</a>
+          </li>
+      </nav>
+          </div>
+      </header>
+    <section class="tabla Contenedor"> <!--Grilla -->
+      <table>
+        <thead>
+          <tr>
+            <th>Modelo</th>
+            <th>Precio</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Invie Acustica</td>
+            <td>$16.500</td>
+            <td>Una Guitarra Que Fue a la Colimba</td>
+          </tr>
+          <tr>
+            <td>Invie Senixx</td>
+            <td>$19.000</td>
+            <td>Volteador de Muros</td>
+          </tr>
+          <tr>
+            <td>Invie Custom</td>
+            <td>$15k-22k</td>
+            <td>A tu Medida</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  <footer class="footer">  <!--contacto -->
+   <div class="Contenedor">
+     <div class="contacto">
+       <img class="Rcon2" src="images/blan.png" alt="Logo Blanco.png" > <!--logo en Blanco -->
+       <div class="">
+         <a href="tel:+54370434579"><strong>Telefono</strong> <span>370434579</span> </a>
+         <a href="mailto:contacto@invie.com"> <strong>E-mail</strong> <span>contacto@invie.com</span> </a>
+       </div>
+    </div>
+   <form class="formulario">   <!--Fornulario de Envio -->
+     <div class="col1">
+       <label for="nombre">Nombre</label>
+       <input type="text" required id="nombre" name="nombre"/>
+       <label for="email">E-mail</label>
+       <input type="email" required id="email" name="email"/>
+       <div class="sexo">
+         <label for="mujer"><input type="radio" id="mujer" name="Sexo" value="mujer" checked>Mujer</label>
+         <label for="Hombre"><input type="radio" id="Hombre" name="Sexo" value="hombre" >Hombre</label>
+       </div>
+         <div class="interes">
+       <label for="cotiz"><input type="checkbox" name="intereses" value="Cotizacion" id="cotiz" checked>Cotizacion</label>
+       <label for="Reclamos"><input type="checkbox" name="intereses" value="Reclamos" id="Reclamos">Reclamos</label>
+       <label for="Comentarios"><input type="checkbox" name="intereses" value="Comentarios" id="Comentarios">Comentarios</label>
+       <label for="Otros"><input type="checkbox" name="intereses" value="Otros" id="Otros">Otros</label>
+         </div>
+           </div>
+         <div class="col2">
+         <label for="Comentarios">Comentarios</label>
+         <textarea name="Comentarios" rows="8" cols="50" id="Comentarios" style=""></textarea>
+         <input type="submit" name="" value="Enviar" class="boton"/>
+       </div>
+     </form>
+     </div>
+ </footer>
+  </body>
+</html>
