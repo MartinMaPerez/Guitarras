@@ -45,6 +45,8 @@ input:focus, textarea:focus {
 .background {
   background-image: url("../images/fondo.jpg");
   background-size: cover;
+  height: 520px;
+  width: 1080px;
 }
 
 .Contenedor {
